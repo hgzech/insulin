@@ -1,0 +1,15 @@
+{
+ "completion": false,
+ "condition": "pull_food",
+ "experiment": "lumcaat",
+ "participantId": "jxfvr6ou",
+ "pull_food_session": {
+  "PID": {
+   "PID_1": {
+    "answer": "test",
+    "time": "08 Aug 2019 18:05:26"
+   }
+  }
+ },
+ "signed_up": "28 Jun 2019 11:14:24"
+}

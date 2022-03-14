@@ -1,0 +1,68 @@
+{
+  "PID": {
+    "id":"PID",
+    "type": "questionnaire",
+    "default_type": {
+      "format": "text_input"
+    },
+    "questions": [
+      {
+        "id": "PID_1",
+        "text": "Participant number"
+      }
+    ]
+  },
+
+  "EX": {
+    "id":"EX",
+    "type": "questionnaire",
+    "default_type": {
+      "format": "text_input"
+    },
+    "questions": [
+      {
+        "id": "hand",
+        "text": "With which hand did the participant complete the task?"
+      },
+      {
+        "id": "diet",
+        "text":"Is the participant following a diet?"
+      }
+    ]
+  },
+
+
+  "pull_food_aat": {
+    "id": "start_pulling_food_aat",
+    "type": "aat",
+    "parent": "food_aat",
+    "blocks": [
+      "practice_pull_food_1", 
+      "pull_food_1", 
+      "pull_food_2",
+      "practice_push_food_2",
+      "push_food_1",
+      "push_food_2"]
+  },
+
+  "push_food_aat": {
+    "id": "start_pushing_food_aat",
+    "type": "aat",
+    "parent": "food_aat",
+    "blocks": [
+      "practice_push_food_1", 
+      "push_food_1", 
+      "push_food_2",
+      "practice_pull_food_2",
+      "pull_food_1",
+      "pull_food_2"]
+  },
+
+  "food_aat": {
+    "id": "food_aat",
+    "type": "aat",
+    "fixation_time": 1500,
+    "end_of_experiment_instruction": "You finished this game. Click the checkmark to continue with the study. ",
+    "out_of_date_instruction": "The session has timed out. Try to complete your sessions without interruption."
+  }
+}

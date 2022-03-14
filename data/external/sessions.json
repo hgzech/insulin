@@ -1,0 +1,30 @@
+{
+  "pull_food_session": {
+    "id" : "pull_food_session",
+    "parent" : "main_session",
+    "tasks": [
+      "PID",
+      "pull_food_aat",
+      "EX"
+    ]
+  },
+
+  "push_food_session": {
+    "id" : "push_food_session",
+    "parent" : "main_session",
+    "tasks": [
+      "PID",
+      "push_food_aat",
+      "EX"
+    ]
+  },
+
+  "main_session": {
+    "name": "Welcome",
+    "start": -1,
+    "end": -1,
+    "subtitle": "Click here to get started.",
+    "is_introduction":true,
+    "repeatable":0
+  }
+}

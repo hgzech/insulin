@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "589633362838",
+    "firebase_url": "https://lumcaat.firebaseio.com",
+    "project_id": "lumcaat",
+    "storage_bucket": "lumcaat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589633362838:android:8fb24d10c0daa43e",
+        "android_client_info": {
+          "package_name": "com.hilmarzech.lumcaat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589633362838-9crvpcc2te4lant3idgbn18h2e6qdu3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hilmarzech.lumcaat",
+            "certificate_hash": "afd7a0ffdef7aa66b0eeda55c4b610ea45198156"
+          }
+        },
+        {
+          "client_id": "589633362838-cchasktioglnbnf5ps7dqimdf2pbhi0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqjvceprjWQcgleecCL2F7goRKXHTB8YE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589633362838-cchasktioglnbnf5ps7dqimdf2pbhi0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
